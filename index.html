@@ -12,7 +12,7 @@
       <header>
         <div class="content-wrap">
           <!-- <h1 id="balazs" onClick="playBalazs()">Balazs</h1> <h1 id="ferencz" onClick="playFerencz()">Ferencz</h1> -->
-          <h1 id="balazs">Balazs </h1> <h1 id="ferencz">Ferencz</h1>
+          <h1 id="balazs">Balázs </h1> <h1 id="ferencz">Ferencz</h1>
           <audio id="balazs_audio" src="audio/BalazsVoice.mp3"  type="audio/mp3"></audio> 
           <audio id="ferencz_audio" src="audio/FerenczVoice.mp3"  type="audio/mp3"></audio> 
           <h2 class="example example2">Job title or tagline</h2>
@@ -60,18 +60,38 @@
           <p>Optional paragraph for work experience summary. Not a part of the job details. Delete if not being used.</p>
   
           <!-- Copy this whole <section> block to add more jobs. -->
-          <section>
-            <h3>Job title</h3>
-            <p>Company Name</p>
-            <p>Date at job</p>
-            <p>Job summary goes here. Add as many paragraphs as you need.</p>
-            <p>Optional list:</p>
-            <ul>
-              <li>Delete this list if you don't need it.</li>
-              <li>Created...</li>
-              <li>Lead...</li>
-              <li>Responsible for...</li>
-            </ul>
+          <section class="job-item">
+            <div class="job-details">
+              <h3>Front End Developer</h3>
+              <p>Frog Systems</p>
+              <p>05/2022 - recent</p>
+            </div>
+            <div class="job-summary">
+              <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Optio dolorem sit fuga eum qui. Fugit optio itaque illo sapiente dignissimos earum eius, non rem at commodi veritatis ab natus aspernatur architecto iure blanditiis consequuntur magni voluptatem ipsam soluta quibusdam nesciunt.</p>
+              <p>Responsibilities:</p>
+                <li>Creating Stuff</li>
+                <li>Design Layouts</li>
+                <li>Create Components</li>
+              </ul>
+            </div>
+          </section>
+
+          <section class="job-item">
+            <div class="job-details">
+              <h3>Another Job title</h3>
+              <p>Another Company Name</p>
+              <p>Date at job</p>
+            </div>
+            <div class="job-summary">
+              <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Id quas doloremque autem voluptatibus corporis animi minus molestias, fugiat atque fugit perspiciatis harum officia ipsam nobis tempora deserunt, nihil quia iusto!</p>
+              <p>Optional list:</p>
+              <ul>
+                <li>Delete this list if you don't need it.</li>
+                <li>Created...</li>
+                <li>Lead...</li>
+                <li>Responsible for...</li>
+              </ul>
+            </div>
           </section>
           <!-- End of Job block. -->
         </div>
