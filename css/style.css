@@ -81,6 +81,14 @@ h3 {
     margin: 0;
 }
 
+.divider > section {
+    border-bottom: 1px solid #343434;
+    padding: 25px 0;
+}
+
+.divider > section:last-of-type {
+    border-bottom: none;
+}
 .content-wrap {
     width: 800px;
     margin: 0px auto;
@@ -125,7 +133,6 @@ header {
 
 .project-item {
     overflow: hidden;
-    border-bottom: 1px solid #343434;
     padding: 25px 0;
 }
 
