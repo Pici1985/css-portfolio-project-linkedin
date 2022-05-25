@@ -70,8 +70,17 @@ h2 {
 
 h3 {
     font-family: "Montserrat", sans-serif;
-
+    margin-bottom: 0;
 }
+
+.item-details h3 + p {
+    font-style: italic;    
+}
+
+.item-details h3 ~ p {
+    margin: 0;
+}
+
 .content-wrap {
     width: 800px;
     margin: 0px auto;
